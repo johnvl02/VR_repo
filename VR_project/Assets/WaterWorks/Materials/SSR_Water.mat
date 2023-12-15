@@ -71,7 +71,7 @@ Material:
     - _MaxCutoff: 0
     - _MaxDist: 250
     - _MaxWaveDist: 250
-    - _NormalStrength: 0.1
+    - _NormalStrength: 0.03
     - _Normal_Strength: 0.1
     - _Offset: 0.9
     - _QueueControl: 0
@@ -85,7 +85,7 @@ Material:
     - _Transparency: 0.95
     - _UseFoam: 1
     - _Use_Foam: 1
-    - _WaveDist: 5
+    - _WaveDist: 3.39
     - _WaveFrequency: 3
     - _WaveSpeed: 0.1
     - _Wave_Speed: 2
@@ -94,8 +94,8 @@ Material:
     - _ZWrite: 1
     - _ZWriteControl: 1
     m_Colors:
-    - _Color: {r: 0.19215687, g: 0.23921569, b: 0.2627451, a: 1}
-    - _EdgeColor: {r: 0.25098038, g: 0.32941175, b: 0.28627446, a: 1}
+    - _Color: {r: 0.2665094, g: 0.4221699, b: 0.5, a: 1}
+    - _EdgeColor: {r: 0.39520293, g: 0.70757854, b: 0.7830189, a: 1}
     - _Edge_Color: {r: 0.2507565, g: 0.3301887, b: 0.28799033, a: 1}
     - _FoamColor: {r: 4, g: 4, b: 4, a: 1}
     - _Foam_Color: {r: 1, g: 1, b: 1, a: 1}
