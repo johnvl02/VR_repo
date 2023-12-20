@@ -41,6 +41,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Transparency: 0.9
+    - _WaveDist: 3.68
     m_Colors:
     - _Color: {r: 0, g: 0.25911346, b: 0.38679248, a: 1}
     - _EdgeColor: {r: 0.0485938, g: 0.49056602, b: 0.4076798, a: 1}
