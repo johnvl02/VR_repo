@@ -1,0 +1,11 @@
+Package of modular medieval buildings
+PBR materials.
+Textures resolution are 4096x4096.
+
+This package contains:
+• 13 models
+• 9 building prefabs, buildings with interior
+• Gallows model
+• Wagon model
+• 72 textures
+• 25 materials 
