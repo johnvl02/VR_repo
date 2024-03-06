@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 //Version 1.2
 public class Interactor : MonoBehaviour
@@ -19,6 +20,7 @@ public class Interactor : MonoBehaviour
     [SerializeField] private LayerMask layerMask = ~0; //negative binary of 0 -> 2^32-1
     [SerializeField] private InteractorUI interactorUI;
     [SerializeField] private GameObject hint; //UI or 3D object hint (like "press E to interact")
+    [SerializeField] private TextMeshProUGUI messageText;
 
     [Header("Buttons")] //--------------------------------------------------
     [SerializeField] private KeyCode interactKey = KeyCode.E;
@@ -101,6 +103,8 @@ public class Interactor : MonoBehaviour
         readyInteract = true;
 
         hint.SetActive(true); //show interact hint
+        messageText.gameObject.SetActive(true); 
+        messageText.text = "Press (E)";
 
         currentInteractable.OnReadyInteract(); //call interface method on selected/current object
         
@@ -112,6 +116,8 @@ public class Interactor : MonoBehaviour
         readyInteract = false;
 
         hint.SetActive(false); //hide interact hint
+        messageText.gameObject.SetActive(false);
+        messageText.text = "";
 
         if (lastInteractable != null)
             lastInteractable.OnAbortInteract(); //call interface method on previously selected object (as current is null)
