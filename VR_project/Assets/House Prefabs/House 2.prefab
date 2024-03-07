@@ -981,12 +981,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3519009057189514202}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 6.42, y: -4.2027, z: -2.8686}
-  m_LocalScale: {x: 332.57, y: 180.75314, z: 148.02042}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5193707311612367159}
+  m_Father: {fileID: 230614583531440848}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4503253065377820611
 MeshFilter:
@@ -1377,6 +1377,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300012, guid: 35fa29dffd83f1d47a6ff8c91e60439c, type: 3}
+--- !u!1 &4392556054790977776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 230614583531440848}
+  m_Layer: 0
+  m_Name: Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &230614583531440848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4392556054790977776}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 6.419998, y: -4.2027, z: -2.868599}
+  m_LocalScale: {x: 332.57, y: 180.75313, z: 148.0204}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5781557002637993399}
+  m_Father: {fileID: 5193707311612367159}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &4475836038982833861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2822,7 +2854,7 @@ Transform:
   - {fileID: 23551594784789489}
   - {fileID: 5078499575920368099}
   - {fileID: 7912852854704879856}
-  - {fileID: 5781557002637993399}
+  - {fileID: 230614583531440848}
   - {fileID: 8148955212578966793}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
