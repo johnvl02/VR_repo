@@ -7,7 +7,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: R window Close
+  m_Name: L window Close
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -152,7 +152,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: R window Open
+  m_Name: L window Open
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -204,7 +204,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: R window Idle
+  m_Name: L window Idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
