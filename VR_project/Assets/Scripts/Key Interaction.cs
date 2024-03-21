@@ -13,7 +13,7 @@ public class KeyInteraction : MonoBehaviour, IInteractable
     void Start()
     {
         timer = 0;
-        waitTime = 3f;
+        waitTime = 5f;
     }
     void FixedUpdate()
     {
@@ -43,7 +43,7 @@ public class KeyInteraction : MonoBehaviour, IInteractable
         door.haveKey = true;
         interact = true;
         indicator.SetActive(false);
-        interactor.ReceiveInteract("You find the key! Now you can escape the prixon");
+        interactor.ReceiveInteract("You have found the key! Now you can escape the prison");
         
     }
 
