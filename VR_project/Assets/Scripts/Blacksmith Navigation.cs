@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class BlacksmithNavigation : MonoBehaviour, IInteractable
+public class BlacksmithNavigation : MonoBehaviour
 {
     [SerializeField] private Animator animator;
     public bool walk = true;
@@ -14,28 +14,7 @@ public class BlacksmithNavigation : MonoBehaviour, IInteractable
     float waitTime;
     float waitTimeMin = 4f;
     float waitTimeMax = 5f;
-
-    [SerializeField] private GameObject indicator;
-
-    public void OnAbortInteract()
-    {
-        indicator.SetActive(false);
-    }
-
-    public void OnEndInteract()
-    {
-
-    }
-
-    public void OnInteract(Interactor interactor)
-    {
-        indicator.SetActive(false); //hide
-    }
-
-    public void OnReadyInteract()
-    {
-        indicator.SetActive(true);
-    }
+    
 
     // Start is called before the first frame update
     void Start()
