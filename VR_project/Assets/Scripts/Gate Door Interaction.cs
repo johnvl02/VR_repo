@@ -33,7 +33,7 @@ public class GateDoorInteraction : MonoBehaviour, IInteractable
         l_Animator.SetTrigger("Run");
         if (r_Animator.GetBool("isOpen") && l_Animator.GetBool("isOpen"))
         {
-            interactor.ReceiveInteract("The Gate is close");
+            interactor.ReceiveInteract("The Gate has closed");
             r_Animator.SetBool("isOpen", false);
             l_Animator.SetBool("isOpen", false);
         }
